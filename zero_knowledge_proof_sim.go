@@ -25,7 +25,7 @@ func ZKVerify(proof string, r string, secret int) bool {
 }
 
 func main() {
-	fmt.Println("========== 零知识证明模拟 ==========")
+	fmt.Println("========= 零知识证明模拟 =========")
 	secret := 123456
 	proof, r := ZKProof(secret)
 	fmt.Printf("证明: %s\n随机数: %s\n", proof, r)
